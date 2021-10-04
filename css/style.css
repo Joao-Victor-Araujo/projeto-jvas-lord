@@ -1,5 +1,132 @@
-*{
-    margin: 0;
+* {
+  font-family: 'Kashima';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kashima';
+}
+
+@font-face {
+  font-family: 'Kashima';
+  src: url('/fonts/Kashima Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+img {
+  width: 35vw;
+  margin-right: 50px;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+aside {
+  display: flex;
+  background-color: salmon;
+  padding: 60px;
+  height: 65%;
+  border-radius: 10px;
+}
+
+.icone {
+  margin: auto;
+  margin-bottom: 40px;
+  width: 8vw;
+  border-radius: 50%;
+}
+
+ul {
+  margin-left: 25%;
+}
+
+li {
+  color: black;
+  margin-bottom: 25px;
+  font-size: 1.4rem;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80vh;
+  margin: 4.8% 20.8%;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 1463px) {
+  aside{
+    height: 80%;
+    margin-right: 15px;
+  }
+
+  img{
+    width: 20vw;
+  }
+}
+
+@media (max-width: 721px) {
+
+  aside{
+    width: 30vw;
+    height: 30vh;
+  }
+
+  img{
+    margin-top: 200px;
     padding: 0;
-    box-sizing: border-box;
+  }
+}
+
+@media (max-width: ) {
+  
+}
+
+@media (max-width: 411px) {
+  html{
+    overflow-x: hidden;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+    section{
+      display: block;
+    }
+
+    fieldset{
+      border: none;
+    }
+
+    aside{
+      width: 70vw;
+      height: 90vh;
+    }
+
+    img{
+      width: 30vw;
+      margin: 50px 0 0 50px;
+    }
+    .icone{
+      width: 27vw;
+    }
+
+    li{
+      font-size: 12px;
+    }
 }
