@@ -1,17 +1,17 @@
 * {
-  font-family:'demo', sans-serif
+  font-family: 'Kashima';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'demo';
+body {
+  font-family: 'Kashima';
 }
 
 @font-face {
-  font-family: 'demo';
-  src: url('fonts/Kashima Demo.otf') format('opentype');
+  font-family: 'Kashima';
+  src: url('/fonts/Kashima Demo.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,28 +34,36 @@ a {
 }
 
 aside {
+  display: flex;
   background-color: salmon;
-  padding: 20px;
+  padding: 60px;
   height: 65%;
   border-radius: 10px;
 }
 
-li {
-  color: black;
-  margin-bottom: 20px;
-  font-size: 1.2rem;
-}
-
-nav img {
-  width: 7vw;
+.icone {
+  margin: auto;
+  margin-bottom: 40px;
+  width: 8vw;
   border-radius: 50%;
 }
 
-.icone {
-  margin-bottom: 5px;
+ul {
+  margin-left: 25%;
 }
 
-ul{
-  margin-left: 15%;
-  margin-bottom: ;
+li {
+  color: black;
+  margin-bottom: 25px;
+  font-size: 1.4rem;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80vh;
+  margin: 4.8% 20.8%;
+  border-radius: 10px;
 }
