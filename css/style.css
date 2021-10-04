@@ -26,6 +26,8 @@ section {
 img {
   width: 35vw;
   margin-right: 50px;
+  max-width: ;
+  min-width: ;
 }
 
 a {
@@ -36,14 +38,15 @@ a {
 aside {
   display: flex;
   background-color: salmon;
-  padding: 60px;
+  padding: 55px;
   height: 65%;
   border-radius: 10px;
 }
 
 .icone {
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
+  margin-top: -3vh;
   width: 8vw;
   border-radius: 50%;
 }
@@ -67,3 +70,4 @@ fieldset {
   margin: 4.8% 20.8%;
   border-radius: 10px;
 }
+
