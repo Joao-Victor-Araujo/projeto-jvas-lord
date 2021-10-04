@@ -1,22 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto:wght@400;500;700&display=swap');
-
 * {
-  font-family: 'Ephesis', sans-serif;
+  font-family:'demo', sans-serif
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: 'demo';
+}
+
+@font-face {
+  font-family: 'demo';
+  src: url('fonts/Kashima Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 97vh;
 }
 
 img {
-  width: 23vw;
-  margin-right: 70px;
+  width: 35vw;
+  margin-right: 50px;
 }
 
 a {
@@ -27,23 +36,26 @@ a {
 aside {
   background-color: salmon;
   padding: 20px;
-  height: 35%;
-  border-radius: 5px;
+  height: 65%;
+  border-radius: 10px;
 }
 
 li {
   color: black;
-  margin-bottom: 12px;
-  font-weight: 500;
-  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 
 nav img {
-  width: 5vw;
+  width: 7vw;
   border-radius: 50%;
 }
 
 .icone {
-  margin-bottom: 10px;
-  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+ul{
+  margin-left: 15%;
+  margin-bottom: ;
 }

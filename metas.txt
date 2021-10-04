@@ -1,0 +1,4 @@
+-fieldset
+-font
+-arrumar logo(centralizar etc)
+-melhorar o desing do nav(talvez um hover)
