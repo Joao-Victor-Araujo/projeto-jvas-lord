@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 * {
-  font-family: 'demo';
+  font-family: 'Bungee', cursive;;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,11 +10,6 @@
 body {
   font-family: 'demo';
   background-color:rgb(236, 209, 206);
-}
-
-@font-face {
-  font-family: 'demo';
-  src: url('/fonts/demo.ttf') format('truetype'); 
 }
 
 section {
@@ -55,7 +52,7 @@ aside {
 }
 
 ul {
-  margin-left: 25%;
+  margin-left: 22%;
 }
 
 li:hover{
@@ -64,7 +61,7 @@ li:hover{
 
 li {
   margin-bottom: 23px;
-  margin auto;
+  margin: auto;
   font-size: 1.4rem;
   color: rgb(255, 255, 255);
 }
@@ -101,6 +98,24 @@ fieldset {
   aside{
     width: 21vw;
     height: 50vh;
+  }
+
+  img{
+    width: 28vw;
+  }
+}
+
+@media (max-width: 1366px) {
+
+  aside{
+    width: 25vw;
+    height:62vh;
+    margin-bottom: 40px;
+  }
+
+  li{
+    margin-top: 10px;
+
   }
 
   img{
